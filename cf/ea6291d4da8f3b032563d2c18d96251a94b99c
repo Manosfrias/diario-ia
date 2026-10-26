@@ -1,0 +1,122 @@
+.editorconfig
+  h_6459da67cb379f 1-9
+.env.example
+  h_6459da67cb379f 1-5
+.gitignore
+  h_6459da67cb379f 1-6
+.nvmrc
+  h_6459da67cb379f 1
+.prettierignore
+  h_6459da67cb379f 1-4
+.prettierrc
+  h_6459da67cb379f 1-6
+README.md
+  h_6459da67cb379f 1-230
+apps/backend/package.json
+  h_6459da67cb379f 1-21
+apps/backend/src/application/ports/EntryRepository.js
+  h_6459da67cb379f 1-15
+apps/backend/src/application/ports/NarrativeGenerator.js
+  h_6459da67cb379f 1-13
+apps/backend/src/application/use-cases/CreateEntry.js
+  h_6459da67cb379f 1-32
+apps/backend/src/application/use-cases/ListEntries.js
+  h_6459da67cb379f 1-14
+apps/backend/src/config/container.js
+  h_6459da67cb379f 1-44
+apps/backend/src/config/env.js
+  h_6459da67cb379f 1-9
+apps/backend/src/domain/entry/Entry.js
+  h_6459da67cb379f 1-64
+apps/backend/src/domain/errors/ValidationError.js
+  h_6459da67cb379f 1-6
+apps/backend/src/infrastructure/ai/FakeNarrativeGenerator.js
+  h_6459da67cb379f 1-42
+apps/backend/src/infrastructure/http/controllers/EntryController.js
+  h_6459da67cb379f 1-20
+apps/backend/src/infrastructure/http/createApp.js
+  h_6459da67cb379f 1-15
+apps/backend/src/infrastructure/http/middleware/errorHandler.js
+  h_6459da67cb379f 1-20
+apps/backend/src/infrastructure/http/routes/entryRoutes.js
+  h_6459da67cb379f 1-8
+apps/backend/src/infrastructure/persistence/InMemoryEntryRepository.js
+  h_6459da67cb379f 1-18
+apps/backend/src/infrastructure/persistence/seedEntries.js
+  h_6459da67cb379f 1-35
+apps/backend/src/main.js
+  h_6459da67cb379f 1-8
+apps/backend/tests/helpers/entryMother.js
+  h_6459da67cb379f 1-12
+apps/backend/tests/integration/http/entries.test.js
+  h_6459da67cb379f 1-71
+apps/backend/tests/unit/application/CreateEntry.test.js
+  h_6459da67cb379f 1-46
+apps/backend/tests/unit/application/ListEntries.test.js
+  h_6459da67cb379f 1-25
+apps/backend/tests/unit/domain/Entry.test.js
+  h_6459da67cb379f 1-52
+apps/backend/tests/unit/infrastructure/FakeNarrativeGenerator.test.js
+  h_6459da67cb379f 1-21
+apps/frontend/index.html
+  h_6459da67cb379f 1-12
+apps/frontend/package.json
+  h_6459da67cb379f 1-27
+apps/frontend/src/application/entryUseCases.js
+  h_6459da67cb379f 1-17
+apps/frontend/src/config/dependencies.js
+  h_6459da67cb379f 1-12
+apps/frontend/src/domain/entry.js
+  h_6459da67cb379f 1-16
+apps/frontend/src/infrastructure/api/HttpEntryRepository.js
+  h_6459da67cb379f 1-29
+apps/frontend/src/infrastructure/speech/WebSpeechRecognizer.js
+  h_6459da67cb379f 1-48
+apps/frontend/src/main.jsx
+  h_6459da67cb379f 1-11
+apps/frontend/src/test/setup.js
+  h_6459da67cb379f 1-5
+apps/frontend/src/ui/App.jsx
+  h_6459da67cb379f 1-10
+apps/frontend/src/ui/DependenciesContext.jsx
+  h_6459da67cb379f 1-15
+apps/frontend/src/ui/components/DictateButton.jsx
+  h_6459da67cb379f 1-12
+apps/frontend/src/ui/components/EntryCard.jsx
+  h_6459da67cb379f 1-16
+apps/frontend/src/ui/components/EntryList.jsx
+  h_6459da67cb379f 1-17
+apps/frontend/src/ui/components/EntryList.test.jsx
+  h_6459da67cb379f 1-24
+apps/frontend/src/ui/components/NewEntryForm.jsx
+  h_6459da67cb379f 1-75
+apps/frontend/src/ui/hooks/useDictation.js
+  h_6459da67cb379f 1-24
+apps/frontend/src/ui/hooks/useEntries.js
+  h_6459da67cb379f 1-40
+apps/frontend/src/ui/pages/DiaryPage.jsx
+  h_6459da67cb379f 1-32
+apps/frontend/src/ui/pages/DiaryPage.test.jsx
+  h_6459da67cb379f 1-46
+apps/frontend/src/ui/styles.css
+  h_6459da67cb379f 1-144
+apps/frontend/vite.config.js
+  h_6459da67cb379f 1-16
+eslint.config.js
+  h_6459da67cb379f 1-43
+package-lock.json
+  h_6459da67cb379f 1-6966
+package.json
+  h_6459da67cb379f 1-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "cfea6291d4da8f3b032563d2c18d96251a94b99c",
+  "prompts": {},
+  "humans": {
+    "h_6459da67cb379f": {
+      "author": "ana gil <anagamo@ext.inditex.com>"
+    }
+  }
+}
